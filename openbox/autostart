@@ -18,7 +18,8 @@
 #volumeicon &
 synclient TapButton1=1
 mate-power-manager &
-volwheel & 
+#volwheel & 
+volumeicon &
 dunst &
 conky -d &
 compton -b -c -f &
