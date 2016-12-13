@@ -1,0 +1,308 @@
+sudo guitmz
+sudo su
+ip a
+sudp ip link set wlp3s0 up
+sudo ip link set wlp3s0 up
+ip a
+#cp -R /etc/xdg/openbox/ .con
+mkdir .config
+cp -R /etc/xdg/openbox/ .config/
+vim .config/openbox/autostart 
+compton --help
+sudo pacman -S rofi
+vim .config/openbox/autostart 
+rofi
+rofi -show run
+rofi -show  run
+rofi --help
+rofi run
+rofi run
+rofi -dmenu run
+sudo pacman -S firefox
+sudo pacman -S wget
+vim  .config/openbox/rc.xml 
+cd .config/openbox/
+rm  rc.xml 
+wget https://raw.githubusercontent.com/CBPP/cbpp-configs/master/cbpp-configs/data/etc/skel/.config/openbox/rc.xml
+vim  rc.xml 
+termite
+termite
+cd .config/openbox/
+vim  autostart 
+cd /usr/share/themes/
+ls
+sudo git clone https://github.com/CBPP/cbpp-ui-theme.git
+sudo cp -R cbpp-ui-theme/cbpp-ui-theme/data/usr/share/themes/CBPP* .
+rm  -rf cbpp-ui-theme/
+sudo rm  -rf cbpp-ui-theme/
+cd /usr/share/icons/
+ls
+sudo git clone https://github.com/CBPP/cbpp-icon-theme.git
+sudo cp -R cbpp-icon-theme/cbpp-icon-theme/data/usr/share/icons/CBPP* .
+sudo rm  -rf cbpp-icon-theme/
+vim  /usr/share/gtk-3.0/settings.ini 
+vim  .config/gtk-3.0/settings.ini 
+sudo pacman -S ttf-dejavu
+cat /etc/asound.conf
+sudo pacman -S alsa-utils
+amixer 
+alsamixer 
+sudo vim /etc/modprobe.d/50-alsa.conf
+lspci -vnn | grep -A 1 -i audio
+ip a
+ip a
+ip lik
+ip linl
+ip link
+ip link set wlp3s0 up
+sudo ip link set wlp3s0 up
+ip link
+wifi-menu 
+sudo wifi-menu -o wlp3s0
+systemctl status "netctl@wlp3s0\\x2dTMZ.service
+vim /etc/netctl/wlp3s0-TMZ 
+sudo vim /etc/netctl/wlp3s0-TMZ 
+ip a
+sudo ip link set wlp3s0 down
+sudo ip link set wlp3s0 up
+ip a
+ip
+ifconfig
+ip wlp3s0
+ip a
+wpa_cli -i wlp3s0 status
+sudo pacman -S iw
+ip a
+sudo ip link set wlp3s0 up
+ip a
+sudo systemctl netctl restart
+sudo systemctl netctl.service restart
+sudo systemctl restart netctl.service
+ip a
+sudo ip link set wlp3s0 up
+ip a
+sudo ip a
+sudo wifi-menu
+journalctl -xe
+sudo rm /etc/netctl/wlp3s0-TMZ 
+sudo wifi-menu -o wlp3s0-TMZ
+sudo wifi-menu -o wlp3s0
+sudo wifi-menu
+sudo systemctl enable netctl-auto@wlp3s0.service 
+sudo reboot
+sudo su
+ip a
+sudo systemctl start netctl-auto@wlp3s0.service
+journalctl -xe
+sudo systemctl start netctl-auto@wlp3s0.service
+ystemctl status netctl-auto@wlp3s0.service
+systemctl status netctl-auto@wlp3s0.service
+sudo pacman -Ss wpa_actiond
+sudo pacman -S wpa_actiond
+ip a
+ip a
+ip a
+ip a
+sudo pacman -S wpa_actiond
+systemctl status netctl-auto@wlp3s0.service
+sudo systemctl start netctl-auto@wlp3s0.service
+ip a
+ip a
+ip a
+ip a
+ip a
+ping google.com
+sudo pacman -S gnome-keyring
+vim .config/tint2/tint2rc 
+cp .config/tint2/tint2rc .
+vim .config/tint2/tint2rc 
+cd .config/tint2/
+ls
+ll
+rm tint2rc 
+wget https://raw.githubusercontent.com/CBPP/cbpp-configs/master/cbpp-configs/data/etc/skel/.config/tint2/tint2rc
+killall tint2
+tint2 &
+sudo pacman -S gsimplecal
+ping google.com
+sudo systemctl restart netctl-auto@wlp3s0.service
+ping google.com
+ping google.com
+ip a
+ip a
+sudo systemctl restart netctl-auto@wlp3s0.service
+ip a
+ip a
+journalctl -xe
+journalctl -xe
+sudo systemctl restart netctl-auto@wlp3s0.service
+journalctl -xe
+sudo systemctl restart netctl-auto@wlp3s0.service
+journalctl -xe
+ip a
+i[ a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ip a
+ping google.com
+ip a
+ip a
+ping google.com
+ip a
+ip a
+ip a
+ping google.com
+cd ..
+cd .
+cd ..
+cd Downloads/
+ls
+mkdir ../Pictures
+mv linux-wallpaper9.png ../Pictures/wall1.png
+cd ..
+vim .config/openbox/autostart 
+feh --help
+sudo pacman -S gtk2-chtheme
+sudo pacman -Ss chtheme
+sudo pacman -S gtk-chtheme
+sudo pacman -S gtk
+sudo pacman -S gtk2
+vim .gtkrc-2.0 
+vim .config/gtk-3.0/settings.ini 
+sudo pacman -S gtk-engines
+vim .config/openbox/autostart 
+sudo pacman -S gtk-theme-switch2
+cd /usr/share/
+ls
+cd themes/
+ls
+cd CBPP
+ls
+vim gtk-3.0/settings.ini 
+vim gtk-2.0/gtkrc 
+env | grep GTK
+cd ..
+cd ..
+cd /home/guitmz/
+ls
+vim .gtkrc-2.0 
+vim .gtkrc-2.0 
+vim .gtkrc-2.0 
+vim .xinitrc 
+vim .xinitrc 
+ls
+ll
+ls -lah
+chown guitmz:users .xinitrc 
+sudo chown guitmz:users .xinitrc 
+vim .xinitrc 
+sudo shutdown -h now
+ping google.com
+sudo pacman -S gtk-engine-murrine
+sudo pacman -S gvolwheel
+sudo pacman -Ss gvolwheel
+sudo pacman -Ss volwheel
+sudo pacman -S volwheel
+volwheel --help
+vim .config/openbox/autostart 
+alsamixer 
+vim /etc/modprobe.d/50-alsa.conf 
+lspci -nn | grep -i audio
+amixer 
+alsamixer 
+wget https://aur.archlinux.org/packages/ya/yaourt/yaourt.tar.gz
+ls
+sudo pacman -S ttf-dejavu ttf-inconsolata
+sudo pacman -S udevil
+sudo pacman -S tlp
+sudo pacman -S alsa-firmware 
+sudo pacman -S alsa-plugins
+sudo pacman -S pavucontrol
+speaker-test 
+alsamixer 
+alsamixer 
+sudo pacman -S asoundconf
+sudo pacman -Ss asoundconf
+sudo pacman -Ss asoundc
+sudo pacman -Ss asound
+cat /proc/asound/card
+cat /proc/asound/cards 
+alsamixer
+aplay -l
+sudo vim /etc/modprobe.d/50-alsa.conf 
+speaker-test -c2
+sudo reboot
+sudo systemctl restart slim.service
+speaker-test 
+speaker-test -c2
+alsamixer 
+sudo su
+synclient -l
+vim .config/openbox/autostart 
+sudo pacman -S mate-power-management
+sudo pacman -S mate-power-manager
+sudo systemctl restart slim.service
+sudo shutdown -h now
+sudo pacman -Syu
+vim .conkyrc
+vim .config/openbox/autostart 
+conky --hel
+vim .config/openbox/autostart 
+conky -d & 
+sudo pacman -S xarchiver
+sudo pacman -S zip unzip unrar
+exit
+sudo pacman -S thunar-archive-plugin
+sudo pacman -S clipit
+vim .config/openbox/autostart 
+sudo pacman -S python2
+pip install speedtest-cli
+pip3
+sudo pacman -S python-pip
+sudo pacman -S python-pip
+pip install speedtest-cli
+sudo pip install speedtest-cli
+pip install --upgrade pip
+sudo pip install --upgrade pip
+yaourt -S google-chrome
+sudo pacman -S nm-applet
+yaourt -S google-chrome
+history
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+zsh
+alsamixer
+sudo pacman -S pluma
+sudo nano /etc/pacman.conf
+sudo pacman -Sy yaourt
+sudo pacman -S gedit
+sudo pacman -S pluma
+sudo pacman -S leafpad
+vim .conkyrc 
+zsh
+sudo pacman -S htop
+htop
+sudo shutdown -h now
+./create_files.sh bynder/ 1000 50
