@@ -1,0 +1,19 @@
+#hsetroot -solid "#2E3436" &
+lxpolkit &
+
+nitrogen --restore &
+compton -b &
+sleep 2s &
+tint2 &
+sleep 1s
+
+volumeicon &
+numlockx on
+nm-applet &
+mate-power-manager &
+
+#(sleep 2 && compton --config ~/.config/compton.conf -b) &
+conky -q &
+
+#cbpp-compositor --start && \
+#compton -cGb -r-0 -r-0 -r9 -o.50 &
